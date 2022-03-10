@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name="urw",
     py_modules=['urw'],
-    version="0.0.5",
+    version="0.0.6",
     keywords=["urdu", "random", "words", "generator"],
     description="Urdu word/phrase generator.",
     long_description=open('README.md').read(),
