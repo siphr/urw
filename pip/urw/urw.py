@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import os
 import sys
 import getopt
 import requests as r
@@ -7,7 +8,8 @@ import random
 
 
 def show_random_words(number_of_words):
-    f = open('wordlist.txt', 'r', encoding='utf-16')
+    exe_path = os.path.dirname(__file__)
+    f = open('{}/wordlist.txt'.format(exe_path), 'r', encoding='utf-16')
     lines = f.readlines()
 
     random_res = ''
