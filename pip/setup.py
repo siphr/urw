@@ -6,12 +6,12 @@ from setuptools import setup, find_packages
 setup(
     name="urw",
     py_modules=['urw'],
-    version="0.0.1",
+    version="0.0.2",
     keywords=["urdu", "random", "words", "generator"],
     description="Urdu word/phrase generator.",
     long_description=open('README.md').read(),
 
-    url="https://github.com/yeyuel/pip-hello.git",
+    bugtrack_url="https://github.com/siphr/urw.git",
     author="siphr",
     author_email="pypi@techtum.dev",
 
