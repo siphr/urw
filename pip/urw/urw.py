@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-import os
-import sys
 from argparse import ArgumentParser
-import requests as r
+import os
 import random
+import requests as r
+import sys
 
 
 def random_words(number_of_words):
@@ -28,5 +28,5 @@ if __name__ == '__main__':
     if args.number_of_words:
         ans = random_words(args.number_of_words)
 
-
-    print('\033[1mRESULT\033[0m {}'.format(ans))
+    if ans:
+        print('\033[1mRESULT\033[0m {}'.format(ans))
