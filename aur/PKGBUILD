@@ -1,7 +1,7 @@
 # Maintainer: siphr <archlinux@techtum.dev>
 pkgname=rwu
 _pypkgname=urw
-pkgver=0.0.6
+pkgver=0.0.7
 pkgrel=1
 pkgdesc="Random Urdu words/phrases generator."
 depends=(python)
@@ -31,4 +31,4 @@ package() {
     echo 'Finished setting up rwu.'
 }
 
-md5sums=('ce28dbce2baf6d25fc7dbc55a8bb3422')
+md5sums=('698e0e112e9013695bd047eea7ac782e')
